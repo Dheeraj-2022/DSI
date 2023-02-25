@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("S Dheeraj Reddy")
 st.header("Data Science Internship ")
-st.sidebar('Choose a demo')
+st.sidebar.success('Choose a demo')
 st.snow()
 
 b_click=st.button("Click Me!!")
