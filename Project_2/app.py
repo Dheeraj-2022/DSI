@@ -1,8 +1,12 @@
+from matplotlib import image as im
+import os
+import plotly.express as px
+import pandas as pd
 import streamlit as st 
 
 st.title("S Dheeraj Reddy")
 st.header("Data Science Internship ")
-st.sidebar.success('Choose a demo')
+
 st.snow()
 
 b_click=st.button("Click Me!!")
