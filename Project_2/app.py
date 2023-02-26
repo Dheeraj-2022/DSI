@@ -8,15 +8,8 @@ import webbrowser
 st.title("S Dheeraj Reddy")
 st.header("Data Science Internship ")
 
-FILE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-PARENT_DIR = os.path.join(FILE_DIR, os.pardir)
 
-dir_of_interest = os.path.join(PARENT_DIR, "resources")
-
-IMAGE_PATH = os.path.join(dir_of_interest, "images" , "photo.jepg")
-img=im.imread(IMAGE_PATH)
-st.image(img)
 
 st.snow()
 
